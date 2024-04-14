@@ -1,0 +1,9 @@
+<form [formGroup]="contatoForm" (submit)="onSubmit()">
+    <label for="nome">NOME</label>
+    <input type="text" placeholder="aqui o nome" id="nome" formControlName="nome" >
+    <label for="contato">CONTATO</label>
+    <input type="text" placeholder="996398444" id="contato" formControlName="contato">
+    <button type="submit" (click)="addContato()">ADICIONAR CONTATO</button>
+</form>
+
+

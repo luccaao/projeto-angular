@@ -1,0 +1,17 @@
+<h3>CONTATOS REGISTRADOS</h3>
+
+<div *ngFor="let contato of contatos" class="card">
+    
+    
+    
+        <p><b>Nome:</b> {{ contato.nome }}</p>
+        <p><b>Contato:</b> {{ contato.contato }}</p>
+    
+    <div class="acoes">
+        <button (click)="editContato(contato.id)" class="editar">EDITAR</button>
+        <button (click)="deleteContato(contato.id)" class="excluir">DELETAR</button>
+
+        
+    </div>
+</div>
+

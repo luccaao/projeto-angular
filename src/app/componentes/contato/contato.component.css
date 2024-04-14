@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 320px;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.card-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.editar, .excluir{
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
